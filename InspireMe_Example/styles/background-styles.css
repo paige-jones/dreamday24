@@ -9,7 +9,7 @@ body {
     /* Allow vertical scrolling if content exceeds viewport */
     position: relative;
     /* Sets the background image for the entire website */
-    background-image: url('../images/wizard/background.png');
+    background-image: url('../images/background/wizard-school.png');
     background-size: cover;
 }
 
