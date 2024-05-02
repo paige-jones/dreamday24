@@ -1,0 +1,46 @@
+/*  Author: Paige Jones
+    Designed For: Dream Day 2024 */
+
+/* Styles for the wizard themed cards */
+.custom-cards {
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+     /* Sets the background color of the card */
+    background-color: #222;
+    /* Sets the color of the card description text */
+    color: white;
+    /* Align card items vertically */
+    flex-direction: column;
+ 
+}
+
+/* Card Title Color */
+.custom-cards .card-title {
+    color: #ffc107;
+}
+
+/* Card Button Color */
+/* Card Button Border Color */
+.custom-cards .btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+/* Sets the shade for the card button hover effect */
+.custom-cards .btn-primary:hover {
+    background-color: #ffcd38;
+    border-color: #ffcd38;
+}
+
+/* Make the card body take up remaining space */
+.card-body {
+    flex: 1;
+}
+
+/* Set the height of the image */
+/* Fit the entire image within the container */
+.card-image-top {
+    height: 200px;
+    object-fit: contain;
+}
