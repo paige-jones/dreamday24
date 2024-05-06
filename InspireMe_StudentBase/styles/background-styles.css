@@ -1,0 +1,27 @@
+/*  Author: Paige Jones
+    Designed For: Dream Day 2024 */
+
+/* Body styles. This affects everything in the HTML body tag. */
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    position: relative;
+    background-size: cover;
+
+    /* TODO: Set the background image for the entire website. Browse background images in the images/ background folder. */
+    /* Example: 
+        background-image: url('../images/background/wizard_school.png'); 
+    */
+    background-image: url('../images/background/wizard_school.png'); 
+
+}
+
+/* Background overlay styles. This positions the background image. */
+.background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

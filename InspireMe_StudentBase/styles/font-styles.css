@@ -1,0 +1,41 @@
+/*  Author: Paige Jones
+    Designed For: Dream Day 2024 */
+
+/* TODO: Choose your website fonts from the fonts folder. */
+
+
+/* EXAMPLE if your font file ends with '.ttf':
+
+    @font-face {
+        font-family: 'Wizard';
+        src: url('../fonts/Wizard.ttf') format('truetype');
+    } 
+
+    .wizard-font {
+        font-family: 'Wizard', sans-serif;
+        font-size: 100px;
+    }
+
+*/
+
+/* EXAMPLE if your font file ends with otf:
+
+    @font-face {
+        font-family: 'Magic';
+        src: url('../fonts/Magic.otf') format('opentype');
+    } 
+
+    .magic-font {
+        font-family: 'Magic', sans-serif;
+        font-size: 25px;
+    }
+
+*/
+
+
+/* TODO: Set your font colors for your website */
+/* EXAMPLE:
+    .text-color-one {
+        color: white;
+    } 
+*/

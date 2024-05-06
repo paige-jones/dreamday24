@@ -1,0 +1,15 @@
+/*  Author: Paige Jones
+    Designed For: Dream Day 2024 */
+
+/* Styles for the character image */
+.character-image {
+    width: 100%;
+
+    /* TODO: Adjust the character image width as needed */
+    max-width: 200px;
+}
+
+/* Adds more space between each HTML section */
+.section-margins {
+    margin-top: 150px
+}

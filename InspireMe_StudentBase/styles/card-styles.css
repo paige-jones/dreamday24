@@ -1,0 +1,60 @@
+/*  Author: Paige Jones
+    Designed For: Dream Day 2024 */
+
+/* Styles for cards */
+.custom-cards {
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    /* TODO: Choose the background color of the card. Go to https://htmlcolorcodes.com/ to see your HTML color codes. */
+    /* EXAMPLE: background-color: #16A085 ; */
+
+
+    /* TODO: Set the color of the card description text */
+    /* EXAMPLE: color: #16A085 ; */
+ 
+}
+
+
+/* TODO: Card title color */
+.custom-cards .card-title {
+    /* EXAMPLE: color: #ffc107; */
+
+
+}
+
+
+/* TODO: Card button color */
+/* TODO: Card button border color */
+.custom-cards .btn-primary {
+    /* EXAMPLE: 
+        background-color: #ffc107;
+        border-color: #ffc107; 
+    */
+    
+}
+
+
+/* TODO: Set the color for the card button hover effect */
+.custom-cards .btn-primary:hover {
+    /* EXAMPLE: 
+        background-color: #ffcd38;
+        border-color: #ffcd38; 
+    */
+
+}
+
+/* Make the card body take up remaining space */
+.card-body {
+    flex: 1;
+}
+
+/* Set the height of the image */
+/* Fit the entire image within the container */
+.card-image-top {
+    height: 200px;
+    object-fit: contain;
+}
