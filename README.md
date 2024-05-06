@@ -1,6 +1,6 @@
 # dreamday24
 
-Install the Todo Tree plugin and put this in each students settings.json in VS Code:
+Install the Todo Tree plugin and put this in each students settings.json in VS Code. Resource: https://thomasventurini.com/articles/the-best-way-to-work-with-todos-in-vscode/
     
     "todo-tree.highlights.defaultHighlight": {
         "icon": "alert",
