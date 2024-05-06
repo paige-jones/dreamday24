@@ -15,12 +15,13 @@
     100%   { transform: translate(0, -0px); }    
 }
 
-.wand {
-    animation: wandAnimation 5s ease 2s 1 normal forwards;
+
+.upAndDown {
+    animation: upAndDown 5s ease 2s 1 normal forwards;
     animation-iteration-count: infinite;
 }
 
-@keyframes wandAnimation {
+@keyframes upAndDown {
 	0%,
 	100% {
 		transform: translateX(0%);
@@ -40,11 +41,12 @@
 	}
 }
 
-.potion {
-    animation: potionAnimation 5s ease-in-out 0s infinite normal forwards;
+
+.leftAndRight {
+    animation: leftAndRight 5s ease-in-out 0s infinite normal forwards;
 }
 
-@keyframes potionAnimation {
+@keyframes leftAndRight {
 	0%,
 	100% {
 		transform: translateX(0%);
@@ -72,11 +74,13 @@
 	}
 }
 
-.quidditch {
-    animation: quidditchAnimation 1s ease-in 0s infinite normal forwards;
+
+
+.smallCircle {
+    animation: smallCircle 1s ease-in 0s infinite normal forwards;
 }
 
-@keyframes quidditchAnimation {
+@keyframes smallCircle {
 	0% {
 		transform: translate(0);
 	}
