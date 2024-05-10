@@ -4,19 +4,16 @@
 /* TODO: Choose your website fonts from the fonts folder. */
 
 
-/* EXAMPLE if your font file ends with '.ttf':
+@font-face {
+    font-family: 'Wizard';
+    src: url('../fonts/Wizard.ttf') format('truetype');
+} 
 
-    @font-face {
-        font-family: 'Wizard';
-        src: url('../fonts/Wizard.ttf') format('truetype');
-    } 
+.wizard-font {
+    font-family: 'Wizard', sans-serif;
+    font-size: 100px;
+}
 
-    .wizard-font {
-        font-family: 'Wizard', sans-serif;
-        font-size: 100px;
-    }
-
-*/
 
 /* EXAMPLE if your font file ends with otf:
 
@@ -37,5 +34,5 @@
 /* EXAMPLE:
     .text-color-one {
         color: white;
-    } 
+    }
 */

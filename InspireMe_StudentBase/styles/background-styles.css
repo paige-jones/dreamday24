@@ -9,11 +9,11 @@ body {
     position: relative;
     background-size: cover;
 
-    /* TODO: Set the background image for the entire website. Browse background images in the images/ background folder. */
-    /* Example: 
-        background-image: url('../images/background/wizard_school.png'); 
-    */
-
+/* TODO: Set the background image for the entire website.
+         Browse background images in the images/ background folder.
+Example:
+    background-image: url('../images/background/wizard_school.png'); 
+*/
 }
 
 /* Background overlay styles. This positions the background image. */
